@@ -25,18 +25,36 @@ print(norm_of_matrix)
 
 # 2-Norm of a Matrix
 ```python
+Program to find 2-norm of a matrix.
+Developed by: vignesh.v
+RegisterNumber: 23004027
 
+import numpy as np
+
+# Type your code here
+
+mat=np.array(eval(input()))
+ans=np.linalg.norm(mat,2)
+norm_of_matrix="{:.2f}".format(ans)
+print(norm_of_matrix)
 
 
 ```
-# Infinity Norm of a Matrix
+# 3-Infinity Norm of a Matrix
+```python
+program to find Infinity norm of a matrix.
+Developed by:vignesh.v
+RegisterNumber:23004027
 
-
-
+import numpy as np
+mat=np.array(eval(input()))
+ans=np.linalg.norm(mat,np.inf)
+norm_of_matrix="{:.2f}".format(ans)
+print(norm_of_matrix)
 
 
 ```
-## Output:
+### output:
 ### 1-Norm of a Matrix
 ![Screenshot 2023-12-29 214115](https://github.com/23004027/Norm-of-a-matrix/assets/138956447/8965073c-dda7-458b-a6c7-5b6f4d8be182)
 
